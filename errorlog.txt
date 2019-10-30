@@ -1,0 +1,77 @@
+[23-Oct-2019 09:38:43 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Class 'POD' not found in /home/kl2ag1/public_html/phpapp/inc/db.php:7
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/index.php(18): init_baza()
+#1 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 7
+[23-Oct-2019 09:38:44 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Class 'POD' not found in /home/kl2ag1/public_html/phpapp/inc/db.php:7
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/index.php(18): init_baza()
+#1 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 7
+[23-Oct-2019 09:39:53 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 table menu already exists in /home/kl2ag1/public_html/phpapp/inc/db.php:16
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(16): PDO->exec('CREATE TABLE me...')
+#1 /home/kl2ag1/public_html/phpapp/index.php(19): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 16
+[25-Oct-2019 09:06:10 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 table menu already exists in /home/kl2ag1/public_html/phpapp/inc/db.php:16
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(16): PDO->exec('CREATE TABLE me...')
+#1 /home/kl2ag1/public_html/phpapp/index.php(19): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 16
+[25-Oct-2019 09:16:31 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '$kom' (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/db.php on line 20
+[25-Oct-2019 09:17:19 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 near "'table'": syntax error in /home/kl2ag1/public_html/phpapp/inc/db.php:17
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(17): PDO->query('SELECT name FRO...')
+#1 /home/kl2ag1/public_html/phpapp/index.php(19): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 17
+[25-Oct-2019 09:17:23 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 near "'table'": syntax error in /home/kl2ag1/public_html/phpapp/inc/db.php:17
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(17): PDO->query('SELECT name FRO...')
+#1 /home/kl2ag1/public_html/phpapp/index.php(19): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 17
+[25-Oct-2019 09:31:06 Europe/Warsaw] PHP Parse error:  syntax error, unexpected end of file in /home/kl2ag1/public_html/phpapp/inc/functions.php on line 38
+[25-Oct-2019 09:32:00 Europe/Warsaw] PHP Notice:  Undefined variable: dv in /home/kl2ag1/public_html/phpapp/inc/db.php on line 29
+[25-Oct-2019 09:32:00 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/kl2ag1/public_html/phpapp/inc/db.php:29
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/functions.php(12): db_query('SELECT * FROM m...', Array)
+#1 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#2 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#3 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 29
+[25-Oct-2019 09:32:34 Europe/Warsaw] PHP Notice:  Undefined variable: dv in /home/kl2ag1/public_html/phpapp/inc/db.php on line 29
+[25-Oct-2019 09:32:34 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/kl2ag1/public_html/phpapp/inc/db.php:29
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/functions.php(12): db_query('SELECT * FROM m...', Array)
+#1 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#2 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#3 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 29
+[25-Oct-2019 09:32:35 Europe/Warsaw] PHP Notice:  Undefined variable: dv in /home/kl2ag1/public_html/phpapp/inc/db.php on line 29
+[25-Oct-2019 09:32:35 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/kl2ag1/public_html/phpapp/inc/db.php:29
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/functions.php(12): db_query('SELECT * FROM m...', Array)
+#1 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#2 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#3 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 29
+[25-Oct-2019 09:36:48 Europe/Warsaw] PHP Notice:  Undefined variable: dv in /home/kl2ag1/public_html/phpapp/inc/db.php on line 29
+[25-Oct-2019 09:36:48 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/kl2ag1/public_html/phpapp/inc/db.php:29
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/functions.php(12): db_query('SELECT * FROM m...', Array)
+#1 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#2 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#3 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 29
+[25-Oct-2019 09:36:50 Europe/Warsaw] PHP Notice:  Undefined variable: dv in /home/kl2ag1/public_html/phpapp/inc/db.php on line 29
+[25-Oct-2019 09:36:50 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/kl2ag1/public_html/phpapp/inc/db.php:29
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/functions.php(12): db_query('SELECT * FROM m...', Array)
+#1 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#2 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#3 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 29
+[25-Oct-2019 09:39:03 Europe/Warsaw] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/kl2ag1/public_html/phpapp/inc/functions.php on line 25
