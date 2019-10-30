@@ -75,3 +75,6 @@ Stack trace:
 #3 {main}
   thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 29
 [25-Oct-2019 09:39:03 Europe/Warsaw] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/kl2ag1/public_html/phpapp/inc/functions.php on line 25
+[30-Oct-2019 09:22:07 Europe/Warsaw] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/kl2ag1/public_html/phpapp/inc/functions.php on line 25
+[30-Oct-2019 09:27:06 Europe/Warsaw] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/kl2ag1/public_html/phpapp/inc/functions.php on line 28
+[30-Oct-2019 09:29:25 Europe/Warsaw] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/kl2ag1/public_html/phpapp/inc/functions.php on line 28

@@ -6,11 +6,14 @@
 // 	'klasa' => 'Klasy'
 // );
 
+$ret = array();	// tablica asocjacyjna, która będzie zawierała wyniki zapytań
+
+
 function get_menu($id) {
-	global $db;
+	global $db, $ret;
 	$ret = array();
 	db_query('SELECT * FROM menu', $ret);
-	print_r($ret);
+	//print_r($ret);
  	foreach ($ret as $k => $t) {
 		echo '
 <li class="nav-item">
@@ -21,10 +24,13 @@ function get_menu($id) {
 }
 
 function get_page_title($id) {
-	global $pages;
-	if (array_key_exists($id, $pages))
-		echo $pages[$id];
-	else
+	global $ret;
+	foreach ($ret as $k => $t) {
+		if ($t['plik'] == $id)	{
+			echo $t['tytul'];
+			return;
+		}
+	}
 		echo 'Aplikacja PHP';
 }
 
