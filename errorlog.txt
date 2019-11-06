@@ -78,3 +78,163 @@ Stack trace:
 [30-Oct-2019 09:22:07 Europe/Warsaw] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/kl2ag1/public_html/phpapp/inc/functions.php on line 25
 [30-Oct-2019 09:27:06 Europe/Warsaw] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/kl2ag1/public_html/phpapp/inc/functions.php on line 28
 [30-Oct-2019 09:29:25 Europe/Warsaw] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/kl2ag1/public_html/phpapp/inc/functions.php on line 28
+[06-Nov-2019 09:17:58 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:19:34 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:19:35 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:19:35 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:19:35 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:19:35 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:19:35 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:19:36 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:19:36 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:19:36 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:19:36 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:19:36 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:19:36 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:19:37 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:19:37 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:19:37 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:19:37 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such table: menu in /home/kl2ag1/public_html/phpapp/inc/db.php:28
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(28): PDO->query('SELECT * FROM m...', 2)
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(15): db_query('SELECT * FROM m...', Array)
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(20): get_menu('witam')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 28
+[06-Nov-2019 09:23:27 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 6 database table is locked in /home/kl2ag1/public_html/phpapp/inc/db.php:17
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(17): PDO->exec('DROP TABLE IF E...')
+#1 /home/kl2ag1/public_html/phpapp/index.php(19): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 17
+[06-Nov-2019 09:24:03 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 6 database table is locked in /home/kl2ag1/public_html/phpapp/inc/db.php:17
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(17): PDO->exec('DROP TABLE IF E...')
+#1 /home/kl2ag1/public_html/phpapp/index.php(19): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 17
+[06-Nov-2019 09:34:33 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/kl2ag1/public_html/phpapp/formularz.html on line 11
+[06-Nov-2019 09:35:03 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '$t' (T_VARIABLE), expecting ',' or ';' in /home/kl2ag1/public_html/phpapp/formularz.html on line 13
+[06-Nov-2019 09:35:18 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '$t' (T_VARIABLE), expecting ',' or ';' in /home/kl2ag1/public_html/phpapp/formularz.html on line 13
+[06-Nov-2019 09:35:19 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '$t' (T_VARIABLE), expecting ',' or ';' in /home/kl2ag1/public_html/phpapp/formularz.html on line 13
+[06-Nov-2019 09:36:13 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: Siema in /home/kl2ag1/public_html/phpapp/formularz.html:6
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/formularz.html(6): PDO->exec('INSERT INTO pos...')
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(39): include('/home/kl2ag1/pu...')
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(34): get_page_content('formularz')
+#3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/formularz.html on line 6
