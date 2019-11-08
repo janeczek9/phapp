@@ -238,3 +238,22 @@ Stack trace:
 #3 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
 #4 {main}
   thrown in /home/kl2ag1/public_html/phpapp/formularz.html on line 6
+[08-Nov-2019 09:10:26 Europe/Warsaw] PHP Parse error:  syntax error, unexpected end of file in /home/kl2ag1/public_html/phpapp/inc/db.php on line 39
+[08-Nov-2019 09:13:53 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: mode must be an integer in /home/kl2ag1/public_html/phpapp/inc/db.php:17
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(17): PDO->query('SELECT name FRO...', Array)
+#1 /home/kl2ag1/public_html/phpapp/index.php(19): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 17
+[08-Nov-2019 09:17:37 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ')' in /home/kl2ag1/public_html/phpapp/inc/db.php on line 29
+[08-Nov-2019 09:18:02 Europe/Warsaw] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: mode must be an integer in /home/kl2ag1/public_html/phpapp/inc/db.php:17
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/db.php(17): PDO->query('SELECT name FRO...', Array)
+#1 /home/kl2ag1/public_html/phpapp/index.php(19): init_tables()
+#2 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 17
+[08-Nov-2019 09:30:23 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '/' in /home/kl2ag1/public_html/phpapp/formularz.html on line 18
+[08-Nov-2019 09:37:07 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'case' (T_CASE) in /home/kl2ag1/public_html/phpapp/formularz.html on line 14
+[08-Nov-2019 09:38:22 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'case' (T_CASE) in /home/kl2ag1/public_html/phpapp/formularz.html on line 15
+[08-Nov-2019 09:38:39 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '/' in /home/kl2ag1/public_html/phpapp/formularz.html on line 35
+[08-Nov-2019 09:39:53 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '/' in /home/kl2ag1/public_html/phpapp/formularz.html on line 35
