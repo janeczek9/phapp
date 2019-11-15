@@ -257,3 +257,4 @@ Stack trace:
 [08-Nov-2019 09:38:22 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'case' (T_CASE) in /home/kl2ag1/public_html/phpapp/formularz.html on line 15
 [08-Nov-2019 09:38:39 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '/' in /home/kl2ag1/public_html/phpapp/formularz.html on line 35
 [08-Nov-2019 09:39:53 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '/' in /home/kl2ag1/public_html/phpapp/formularz.html on line 35
+[15-Nov-2019 09:13:41 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting ';' or '{' in /home/kl2ag1/public_html/phpapp/inc/users.php on line 30
