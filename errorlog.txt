@@ -258,3 +258,39 @@ Stack trace:
 [08-Nov-2019 09:38:39 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '/' in /home/kl2ag1/public_html/phpapp/formularz.html on line 35
 [08-Nov-2019 09:39:53 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '/' in /home/kl2ag1/public_html/phpapp/formularz.html on line 35
 [15-Nov-2019 09:13:41 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting ';' or '{' in /home/kl2ag1/public_html/phpapp/inc/users.php on line 30
+[20-Nov-2019 09:00:43 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '(array)' (array) (T_ARRAY_CAST), expecting '(' in /home/kl2ag1/public_html/phpapp/inc/users.php on line 29
+[20-Nov-2019 09:00:46 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '(array)' (array) (T_ARRAY_CAST), expecting '(' in /home/kl2ag1/public_html/phpapp/inc/users.php on line 29
+[20-Nov-2019 09:22:25 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to a member function is_login() on null in /home/kl2ag1/public_html/phpapp/userform.html:11
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/functions.php(36): include()
+#1 /home/kl2ag1/public_html/phpapp/inc/template.php(34): get_page_content('userform')
+#2 /home/kl2ag1/public_html/phpapp/index.php(26): include_once('/home/kl2ag1/pu...')
+#3 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/userform.html on line 11
+[20-Nov-2019 09:23:30 Europe/Warsaw] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function db_query(), 1 passed in /home/kl2ag1/public_html/phpapp/inc/users.php on line 30 and exactly 2 expected in /home/kl2ag1/public_html/phpapp/inc/db.php:25
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/inc/users.php(30): db_query('SELECT id FROM ...')
+#1 /home/kl2ag1/public_html/phpapp/userform.html(11): User->is_login('asddas')
+#2 /home/kl2ag1/public_html/phpapp/inc/functions.php(36): include('/home/kl2ag1/pu...')
+#3 /home/kl2ag1/public_html/phpapp/inc/template.php(34): get_page_content('userform')
+#4 /home/kl2ag1/public_html/phpapp/index.php(28): include_once('/home/kl2ag1/pu...')
+#5 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/db.php on line 25
+[20-Nov-2019 09:25:58 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Cannot pass parameter 2 by reference in /home/kl2ag1/public_html/phpapp/inc/users.php:30
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/userform.html(11): User->is_login('asddas')
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(36): include('/home/kl2ag1/pu...')
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(34): get_page_content('userform')
+#3 /home/kl2ag1/public_html/phpapp/index.php(28): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/users.php on line 30
+[20-Nov-2019 09:27:39 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/inc/users.php on line 31
+[20-Nov-2019 09:27:58 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/kl2ag1/public_html/phpapp/inc/users.php:31
+Stack trace:
+#0 /home/kl2ag1/public_html/phpapp/userform.html(11): User->is_login('asddas')
+#1 /home/kl2ag1/public_html/phpapp/inc/functions.php(36): include('/home/kl2ag1/pu...')
+#2 /home/kl2ag1/public_html/phpapp/inc/template.php(34): get_page_content('userform')
+#3 /home/kl2ag1/public_html/phpapp/index.php(28): include_once('/home/kl2ag1/pu...')
+#4 {main}
+  thrown in /home/kl2ag1/public_html/phpapp/inc/users.php on line 31
+[20-Nov-2019 09:40:19 Europe/Warsaw] PHP Parse error:  syntax error, unexpected end of file in /home/kl2ag1/public_html/phpapp/inc/functions.php on line 60

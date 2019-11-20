@@ -31,7 +31,8 @@
 			<div class="row">
 				<div class="col">
 				<?php
-					get_page_content($id);
+					get
+                    get_page_content($id);
 				?>
 				</div>
 				<div class="col"></div>
