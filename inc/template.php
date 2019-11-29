@@ -17,7 +17,7 @@
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
-<?php get_menu($id); ?>
+<?php get_menu($id, $strona); ?>
             </ul>
         </div>
     </nav>
@@ -31,8 +31,9 @@
 			<div class="row">
 				<div class="col">
 				<?php
-					get
-                    get_page_content($id);
+                    get_page_content($strona);
+					get_koms(Baza::$kom);
+                    get_koms($kom);
 				?>
 				</div>
 				<div class="col"></div>
