@@ -1,17 +1,30 @@
 <?php
+ini_set('session.save_path', 'sesje');
+
 
 class User {
 
 	var $dane = array();
 	var $keys = array('id', 'login', 'haslo', 'email', 'data');
 
+	function __construct()  {
+		if(!isset($SESSION)) session_start();
+	}
+
+
+	function login($login, $haslo){
+		IF ($this->is_user($login, $haslo))
+$_SESSION['dane'] = $this->dane;
+
+	}
+
 	function is_user($sid, $login=NULL, $haslo=NULL) {
 		if (!empty($login)) {
-				$qstr='SELECT * FROM users WHERE login = \''.$login.'\' AND haslo = \''.sha1($haslo).'\' LIMIT 1';
+				$q="SELECT * FROM users WHERE login = '.$login.' AND haslo = '.sha1($haslo).' LIMIT 1";
 		} else return false;
 
-		$ret=array();
-		db_query($qstr,$ret);
+
+		Baza::db_query($q);
 		if (!empty($ret[0])) {
 			$this->dane=array_merge($this->dane,$ret[0]);
 			$sid=sha1($this->id.$this->login.session_id());
@@ -34,13 +47,13 @@ class User {
 
 	function is_login($login) {
 		$qstr='SELECT id FROM users WHERE login=\''.$login.'\' LIMIT 1';
-    if (db_query($qstr)) return true;
+    if (Baza::db_query($qstr)) return true;
     return false;
 	}
 
 	function is_email($email) {
 		$qstr='SELECT id FROM users WHERE email=\''.$email.'\' LIMIT 1';
-    if (db_query($qstr)) return true;
+    if (Baza::db_query($qstr)) return true;
     return false;
 	}
 
@@ -52,7 +65,7 @@ class User {
 			$ret=db_exec($qstr);
 			$id = db_lastInsertID();
 		}
-		if ($ret) return true;
+		if (Baza::$ret) return true;
 		return false;
 	}
 

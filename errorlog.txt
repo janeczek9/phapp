@@ -38,3 +38,14 @@ Stack trace:
 #2 /home/lo1sand/public_html/phpapp/index.php(27): include_once('/home/lo1sand/p...')
 #3 {main}
   thrown in /home/lo1sand/public_html/phpapp/formularz.html on line 27
+[06-Dec-2019 09:20:10 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 8
+[06-Dec-2019 09:22:42 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 8
+[06-Dec-2019 09:23:16 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 8
+[06-Dec-2019 09:23:20 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '&' in /home/kl2ag1/public_html/phpapp/inc/users.php on line 11
+[06-Dec-2019 09:24:16 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 15
+[06-Dec-2019 09:25:28 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 15
+[06-Dec-2019 09:32:31 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 15
+[06-Dec-2019 09:32:32 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 15
+[06-Dec-2019 09:32:32 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 15
+[06-Dec-2019 09:32:32 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 15
+[06-Dec-2019 09:32:32 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 15
