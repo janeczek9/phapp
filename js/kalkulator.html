@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Kalkulator</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="jquery-3.4.1.min.js"></script>
+	<!--
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	-->
+</head>
+
+<body>
+
+	<h1>Kalkulator</h1>
+	<label for="lb1">Liczba1: </label>
+	<input type="number" id="lb1">
+	<label for="lb2">Liczba2: </label>
+	<input type="number" id="lb2">
+  <br>
+	<button type="button" id="dodawanie">+</button>
+  <button type="button" id="odejmowanie">-</button>
+  <button type="button" id="mnozenie">*</button>
+  <button type="button" id="dzielenie">/</button>
+  <button type="button" id="modulo">%</button>
+  <button type="button" onclick="cleanTxt()" id="wyczysc">Wyczyść</button>
+	<hr>
+	<div class="wynik">Wynik:</div>
+	<hr>
+  <script>
+    function cleanTxt(){
+    document.getElementsByTagName("input")[0].value = '';
+  }
+    $("#dodawanie").click(function(){
+      var w = parseInt($("#lb1").val())+parseInt($("#lb2").val());
+      console.log(w);
+      $("div.wynik").text("dodawanie: "+w);
+    });
+    $("#odejmowanie").click(function(){
+      var w = parseInt($("#lb1").val())-parseInt($("#lb2").val());
+      console.log(w);
+      $("div.wynik").text("odejmowanie: "+w);
+    });
+    $("#mnozenie").click(function(){
+      var w = parseInt($("#lb1").val())*parseInt($("#lb2").val());
+      console.log(w);
+      $("div.wynik").text("mnożenie: "+w);
+    });
+    $("#dzielenie").click(function(){
+      if (parseInt($("#lb2").val()) == 0) {
+        window.alert('Nie da się!');
+      }
+      else {
+      var w = parseInt($("#lb1").val())/parseInt($("#lb2").val());
+      console.log(w);
+      $("div.wynik").text("dzielenie: "+w); }
+    });
+    $("#modulo").click(function(){
+      if (parseInt($("#lb2").val()) == 0) {
+        window.alert('Nie da się!');
+      }
+      else {
+      var w = parseInt($("#lb1").val())%parseInt($("#lb2").val());
+      console.log(w);
+      $("div.wynik").text("modulo: "+w); }
+    });
+  </script>
+</body>
+
+</html>

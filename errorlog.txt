@@ -1,51 +1,86 @@
-[29-Nov-2019 09:37:13 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Access to undeclared static property: Baza::$db in /home/lo1sand/public_html/phpapp/inc/db.php:10
+[29-Nov-2019 09:37:12 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/kl2ag2/public_html/phpapp/inc/functions.php on line 41
+[29-Nov-2019 09:37:59 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/kl2ag2/public_html/phpapp/inc/functions.php on line 41
+[29-Nov-2019 09:38:37 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/kl2ag2/public_html/phpapp/inc/functions.php on line 41
+[29-Nov-2019 09:40:28 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/kl2ag2/public_html/phpapp/inc/functions.php on line 41
+[29-Nov-2019 09:41:00 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/kl2ag2/public_html/phpapp/inc/functions.php on line 41
+[29-Nov-2019 09:41:00 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/kl2ag2/public_html/phpapp/inc/functions.php on line 41
+[29-Nov-2019 09:41:01 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/kl2ag2/public_html/phpapp/inc/functions.php on line 41
+[13-Dec-2019 08:59:19 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'isset' (T_ISSET), expecting '(' in /home/kl2ag2/public_html/phpapp/inc/users.php on line 14
+[13-Dec-2019 09:00:42 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'isset' (T_ISSET), expecting '(' in /home/kl2ag2/public_html/phpapp/inc/users.php on line 14
+[13-Dec-2019 09:00:42 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'isset' (T_ISSET), expecting '(' in /home/kl2ag2/public_html/phpapp/inc/users.php on line 14
+[13-Dec-2019 09:01:17 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '[', expecting variable (T_VARIABLE) or '{' or '$' in /home/kl2ag2/public_html/phpapp/inc/users.php on line 13
+[13-Dec-2019 09:01:18 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '[', expecting variable (T_VARIABLE) or '{' or '$' in /home/kl2ag2/public_html/phpapp/inc/users.php on line 13
+[13-Dec-2019 09:13:41 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST) in /home/kl2ag2/public_html/phpapp/inc/users.php on line 90
+[13-Dec-2019 09:13:42 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST) in /home/kl2ag2/public_html/phpapp/inc/users.php on line 90
+[13-Dec-2019 09:19:11 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/kl2ag2/public_html/phpapp/inc/template.php on line 40
+[13-Dec-2019 09:22:53 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to undefined function db_lastInsertID() in /home/kl2ag2/public_html/phpapp/inc/users.php:85
 Stack trace:
-#0 /home/lo1sand/public_html/phpapp/index.php(17): Baza->__construct('db/baza.db')
-#1 {main}
-  thrown in /home/lo1sand/public_html/phpapp/inc/db.php on line 10
-[04-Dec-2019 09:05:57 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to undefined function db_query() in /home/lo1sand/public_html/phpapp/formularz.html:27
-Stack trace:
-#0 /home/lo1sand/public_html/phpapp/inc/functions.php(41): include()
-#1 /home/lo1sand/public_html/phpapp/inc/template.php(34): get_page_content(Array)
-#2 /home/lo1sand/public_html/phpapp/index.php(27): include_once('/home/lo1sand/p...')
-#3 {main}
-  thrown in /home/lo1sand/public_html/phpapp/formularz.html on line 27
-[04-Dec-2019 09:06:04 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to undefined function db_query() in /home/lo1sand/public_html/phpapp/formularz.html:27
-Stack trace:
-#0 /home/lo1sand/public_html/phpapp/inc/functions.php(41): include()
-#1 /home/lo1sand/public_html/phpapp/inc/template.php(34): get_page_content(Array)
-#2 /home/lo1sand/public_html/phpapp/index.php(27): include_once('/home/lo1sand/p...')
-#3 {main}
-  thrown in /home/lo1sand/public_html/phpapp/formularz.html on line 27
-[04-Dec-2019 09:06:14 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to undefined function db_query() in /home/lo1sand/public_html/phpapp/formularz.html:27
-Stack trace:
-#0 /home/lo1sand/public_html/phpapp/inc/functions.php(41): include()
-#1 /home/lo1sand/public_html/phpapp/inc/template.php(34): get_page_content(Array)
-#2 /home/lo1sand/public_html/phpapp/index.php(27): include_once('/home/lo1sand/p...')
-#3 {main}
-  thrown in /home/lo1sand/public_html/phpapp/formularz.html on line 27
-[04-Dec-2019 09:06:21 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to undefined function db_query() in /home/lo1sand/public_html/phpapp/formularz.html:27
-Stack trace:
-#0 /home/lo1sand/public_html/phpapp/inc/functions.php(41): include()
-#1 /home/lo1sand/public_html/phpapp/inc/template.php(34): get_page_content(Array)
-#2 /home/lo1sand/public_html/phpapp/index.php(27): include_once('/home/lo1sand/p...')
-#3 {main}
-  thrown in /home/lo1sand/public_html/phpapp/formularz.html on line 27
-[04-Dec-2019 09:06:27 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to undefined function db_query() in /home/lo1sand/public_html/phpapp/formularz.html:27
-Stack trace:
-#0 /home/lo1sand/public_html/phpapp/inc/functions.php(41): include()
-#1 /home/lo1sand/public_html/phpapp/inc/template.php(34): get_page_content(Array)
-#2 /home/lo1sand/public_html/phpapp/index.php(27): include_once('/home/lo1sand/p...')
-#3 {main}
-  thrown in /home/lo1sand/public_html/phpapp/formularz.html on line 27
-[06-Dec-2019 09:20:10 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 8
-[06-Dec-2019 09:22:42 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 8
-[06-Dec-2019 09:23:16 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 8
-[06-Dec-2019 09:23:20 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '&' in /home/kl2ag1/public_html/phpapp/inc/users.php on line 11
-[06-Dec-2019 09:24:16 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 15
-[06-Dec-2019 09:25:28 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 15
-[06-Dec-2019 09:32:31 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 15
-[06-Dec-2019 09:32:32 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 15
-[06-Dec-2019 09:32:32 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 15
-[06-Dec-2019 09:32:32 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 15
-[06-Dec-2019 09:32:32 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting variable (T_VARIABLE) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 15
+#0 /home/kl2ag2/public_html/phpapp/userform.html(30): User->savtb()
+#1 /home/kl2ag2/public_html/phpapp/inc/functions.php(38): include('/home/kl2ag2/pu...')
+#2 /home/kl2ag2/public_html/phpapp/inc/template.php(34): get_page_content(Array)
+#3 /home/kl2ag2/public_html/phpapp/index.php(27): include_once('/home/kl2ag2/pu...')
+#4 {main}
+  thrown in /home/kl2ag2/public_html/phpapp/inc/users.php on line 85
+[03-Jan-2020 09:37:40 Europe/Warsaw] PHP Notice:  Undefined variable: user in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 43
+[03-Jan-2020 09:37:40 Europe/Warsaw] PHP Notice:  Trying to get property 'id' of non-object in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 43
+[03-Jan-2020 09:37:41 Europe/Warsaw] PHP Notice:  Undefined variable: user in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 43
+[03-Jan-2020 09:37:41 Europe/Warsaw] PHP Notice:  Trying to get property 'id' of non-object in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 43
+[03-Jan-2020 09:50:28 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/kl2ag2/public_html/phpapp/inc/users.php on line 92
+[03-Jan-2020 09:50:29 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/kl2ag2/public_html/phpapp/inc/users.php on line 92
+[03-Jan-2020 09:50:54 Europe/Warsaw] PHP Notice:  Undefined variable: user in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 43
+[03-Jan-2020 09:50:54 Europe/Warsaw] PHP Notice:  Trying to get property 'id' of non-object in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 43
+[08-Jan-2020 09:02:18 Europe/Warsaw] PHP Notice:  Undefined variable: user in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 43
+[08-Jan-2020 09:02:18 Europe/Warsaw] PHP Notice:  Trying to get property 'id' of non-object in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 43
+[08-Jan-2020 09:02:20 Europe/Warsaw] PHP Notice:  Undefined variable: user in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 43
+[08-Jan-2020 09:02:20 Europe/Warsaw] PHP Notice:  Trying to get property 'id' of non-object in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 43
+[08-Jan-2020 09:02:26 Europe/Warsaw] PHP Notice:  Undefined variable: user in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 43
+[08-Jan-2020 09:02:26 Europe/Warsaw] PHP Notice:  Trying to get property 'id' of non-object in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 43
+[08-Jan-2020 09:26:51 Europe/Warsaw] PHP Notice:  Undefined variable: user in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 7
+[08-Jan-2020 09:27:21 Europe/Warsaw] PHP Notice:  Undefined variable: user in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 7
+[08-Jan-2020 09:27:26 Europe/Warsaw] PHP Notice:  Undefined variable: user in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 7
+[08-Jan-2020 09:28:00 Europe/Warsaw] PHP Notice:  Undefined variable: user in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 7
+[08-Jan-2020 09:29:14 Europe/Warsaw] PHP Notice:  Undefined variable: user in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 7
+[08-Jan-2020 09:34:47 Europe/Warsaw] PHP Notice:  Undefined variable: user in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 7
+[08-Jan-2020 09:35:19 Europe/Warsaw] PHP Notice:  Undefined variable: user in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 7
+[08-Jan-2020 09:35:23 Europe/Warsaw] PHP Notice:  Undefined variable: user in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 7
+[08-Jan-2020 09:35:38 Europe/Warsaw] PHP Notice:  Undefined variable: user in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 7
+[10-Jan-2020 10:05:40 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:05:40 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:05:40 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:05:40 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:05:40 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:05:40 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:05:40 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:05:40 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:05:40 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:05:40 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:06:01 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:06:01 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:06:01 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:06:01 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:08:34 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ')' in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:08:35 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ')' in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:08:36 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ')' in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:08:36 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ')' in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:09:02 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ')' in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:09:06 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ')' in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:09:08 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ')' in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:09:28 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ''.$t['' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:09:29 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ''.$t['' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:09:41 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:09:41 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:09:41 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:09:41 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:09:41 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:09:41 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:09:41 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:09:41 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:10:52 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:10:52 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:10:52 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:10:52 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:10:53 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:10:53 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:10:53 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:10:53 Europe/Warsaw] PHP Notice:  Undefined index: login in /home/kl2ag2/public_html/phpapp/wiadomosci.html on line 36
+[10-Jan-2020 10:28:17 Europe/Warsaw] PHP Parse error:  syntax error, unexpected end of file in /home/kl2ag2/public_html/phpapp/userlogin.html on line 28

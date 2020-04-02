@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Użycie biblioteki jquery</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="jquery-3.4.1.min.js"></script>
+	<!--
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	-->
+</head>
+
+<body>
+	<h1>Testy biblioteki jQuery</h1>
+	<label for="vnk">Rozmiar skompresowany</label>
+	<input type="text" id="vnk">
+	<label for="nk">Rozmiar nieskompresowany</label>
+	<input type="text" id="nk">
+	<button type="button" id="przycisk">Oblicz</button>
+	<hr>
+	<div class="wynik">Wynik:</div>
+	<hr>
+	<p class="wynik">Wynik:</p>
+
+	<div class="image">
+		<img src="panda.jpg" id="img1" class="img">
+		<img src="kotek.jpg" id="img2" class="img">
+		<br>
+		<img src="panda.jpg" id="img3" class="img">
+		<img src="kotek.jpg" id="img4" class="img">
+	</div>
+
+	<script src="jquery_cwicz.js"></script>
+</body>
+
+</html>
